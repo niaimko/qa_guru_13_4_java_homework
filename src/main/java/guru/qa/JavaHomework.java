@@ -1,5 +1,7 @@
 package guru.qa;
 
+import java.util.Locale;
+
 public class JavaHomework{
 
     public static void main(String[] args) {
@@ -86,6 +88,18 @@ public class JavaHomework{
         byte b2 = -127;
         b2 -= 2;
         System.out.println(b2);
+
+        // строки
+        String word1 = "Hello";
+        String word2 = "qa.guru";
+        System.out.println(word1 + ", " + word2 +"!");
+
+        // перевод в регистр
+        System.out.println(word1.toLowerCase());
+        System.out.println(word1.toUpperCase());
+
+        // длина строки
+        System.out.println(word1.length());
 
     }
 
